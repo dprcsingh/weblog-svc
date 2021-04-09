@@ -1,0 +1,12 @@
+type Query {
+  getData: [Data]
+  getDataById(id: Int!): Data
+}
+
+type Data {
+  name: String
+  email: String
+  avatar: String
+  id: ID
+  city: String
+}
